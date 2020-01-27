@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap');
+
+body {
+  text-align: center;
+  color: #000F08;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+body * {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+h1 {
+  font-weight: 800;
+  font-size: 3.75em;
+  margin-bottom: 0.25em
+}
+h2 {
+  font-weight: 700;
+  font-size: 2.5em;
+}
+h3 {
+  font-size: 2em;
+}
+h4 {
+  font-size: 1.75em;
+}
+h5 {
+  font-size: 1.25em;
+}
+a {
+  text-decoration: none;
+}
+.subtitulo, h4, h5 {
+  font-weight: 400;
+}
+#ubicacion h2 {
+  margin: 1em auto;
+}
+.sweet-brown h3, .sweet-brown h5 {
+  margin-bottom: 0.5em;
+}
+#eventos h2 {
+  margin-bottom: 1em;
+}
+#eventos h3 {
+  margin: 1em auto;
+  font-size: 1.25em;
+}
+#eventos a h3{
+  color:#000F08;
+}
+#eventos a h3:hover{
+  color:#a4452c;
+}
+#simposio-vegano h2 {
+  padding: 4em 0 1.5em 0;
+}
+#simposio-vegano h3 {
+  padding: 1em 0 0 0;
+}
+#simposio-vegano p {
+  margin-top: 2rem;
+  white-space: normal;
+  line-height: 1.5em;
+}
+.oscuro {
+  background: #000f08;
+  color: #ffffff;
+}
+.oscuro a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.sweet-brown {
+  text-align: left;
+  background: #a4452c;
+  color: #ffffff;
+  padding: 3.125rem;
+  white-space: nowrap;
+}
+.hero-section {
+  background: url('../img/bg-hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:#ffffff;
+  text-align: right;
+  text-shadow: 0.125em 0.25em 0.125em #707070;
+  padding: 6.25rem 3.125rem;
+}
+section, footer {
+  margin-top: 4.5rem;
+}
+footer {
+  padding: 3.125rem;
+}
+.centrado {
+  width: 75%;
+  margin: 0 auto;
+}
+.centrado-post {
+  width: 45%;
+  margin: 0 auto;
+}
+.charla-speaker, .charla-texto, .evento {
+  display: inline-block;
+}
+.charla-speaker {
+  width: 25%;
+  vertical-align: middle;
+}
+.charla-texto {
+  width: 72.5%;
+  vertical-align: middle;
+  margin-left: 2.5%;
+  white-space: normal;
+}
+.evento {
+  width: 30%;
+}
+.evento img {
+  width: 75%;
+}
+#simposio-vegano{
+  text-align: justify;
+}
+.s-vegano img{
+  width: 100%
+}
+
+nav {
+  text-align: left;
+  padding: 1.25rem 4rem;
+  position: fixed;
+  width: 100vw;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 1em;
+  vertical-align: middle;
+}
+.logo {
+  width: 2.5rem;
+}
+.logo svg {
+  fill:#ffffff;
+}
+footer i {
+  margin: 0 0.25em 0.5em 0.25em;
+}
